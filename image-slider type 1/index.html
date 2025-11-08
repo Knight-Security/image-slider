@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container swiper">
         <div class="class-wrapper">
-            <ul class="card-list">
-                <li class="card-item">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
                         <img src="images/one piece.jpg" class="card-image">
                         <p class="badge">One Piece</p>
@@ -22,7 +22,7 @@
                         <button class="card-button material-symbols-outlined">arrow_forward</button>
                     </a>
                 </li>
-                <li class="card-item">
+                <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
                         <img src="images/naruto.png" class="card-image">
                         <p class="badge">Naruto</p>
@@ -30,7 +30,7 @@
                         <button class="card-button material-symbols-outlined">arrow_forward</button>
                     </a>
                 </li>
-                <li class="card-item">
+                <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
                         <img src="images/wp3159750.png" class="card-image">
                         <p class="badge">Bleach</p>
@@ -38,7 +38,7 @@
                         <button class="card-button material-symbols-outlined">arrow_forward</button>
                     </a>
                 </li>
-                <li class="card-item">
+                <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
                         <img src="images/demon slayer.jpg" class="card-image">
                         <p class="badge">Demon Slayer</p>
@@ -46,7 +46,7 @@
                         <button class="card-button material-symbols-outlined">arrow_forward</button>
                     </a>
                 </li>
-                <li class="card-item">
+                <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
                         <img src="images/bugno stray dogs.png" class="card-image" >
                         <p class="badge">Bugno Stray Dogs</p>
@@ -55,9 +55,14 @@
                     </a>
                 </li>
             </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
-    </div>\
+    </div>
     <!-- Linking SwiperJs SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- Linking Javascript -->
+    <script src="script.js"></script>
 </body>
 </html>
