@@ -13,11 +13,17 @@ body{
     min-height: 100vh;
     background: linear-gradient(#ECEFEE ,#CED6FB);
 }
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding:20px 10px;
+    overflow:hidden;
+}
 .card-list .card-item{
     list-style: none;
 }
 .card-list .card-item .card-link{
-    width:400px;
+    user-select: none;
     display: block;
     background-color: #fff;
     padding: 18px;
@@ -69,4 +75,11 @@ body{
     color:#fff;
     background:#5372F0;
    
+}
+.card-wrapper .swiper-pagination-bullet{
+    height:13px;
+    width:13px;
+    opacity:0.5;
+    background:#5372F0;
+    
 }
